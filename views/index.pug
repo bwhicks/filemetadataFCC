@@ -1,0 +1,14 @@
+html
+  head
+    title API demonstration
+  h1
+    | Instructions
+  p
+    | This is a simple form meant to allow you to easily test the api contained on
+    | /api/post that will return a JSON string with metadata about the uploaded file.
+    | It will write to memory only, nothing is saved to disk.
+  form(enctype='multipart/form-data' action='/api/post' method='post')
+    | File: 
+    input(type='file', name='file')
+    br
+    input(type='submit', name='submit', value='Submit')

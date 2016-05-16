@@ -1,0 +1,16 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "0.0.1",
+  "description": "a microservice to return metadata about an uploaded file for FCC",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Benjamin Hicks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0",
+    "pug": "^2.0.0-alpha7"
+  }
+}
